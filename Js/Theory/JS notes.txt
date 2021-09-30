@@ -1,0 +1,12 @@
+process.stdout.write('Hello \n');
+process.stdout.write('World');
+process.stdin.on('data', data => {});
+
+Ata console log er moto kaj kore.
+
+1. process standard output on  diye kno akta data likhar por capture 
+kora jai.
+
+2. Buffer mane hocche temporay akta place jekhan theke data show hocce.
+
+What is toFixed and readLine?
