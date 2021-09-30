@@ -1,0 +1,240 @@
+1. What Is CSS?
+Ans. CSS stands for Cascading Style Sheet. It is a styling language.
+It is used for applying the styles for the HTML elements
+
+2. What is the Box model in CSS? Which CSS properties are a part of it?
+
+Ans. Box-sizing border box hocche css3 er new property. Ja protiti html element er charpase theke rectangle box dara wraped kora thake.  
+box-sizing border box ai karone use kora hoy jate amra padding margin border use korle o  main width er upor kno effect na pore. Main 
+content er jonno j width use kora hoy seti jate fixed thake.
+ 
+
+
+i) Content:  Actual Content of the box where the text or image placed.
+ii) Padding: Area surrounding the content (Space between the border and content).
+iii) Border: Area surrounding the padding.
+iv) Margin: Area surrounding the border.
+
+3. Is css a case-sensitive or case-insensitive?
+Ans. CSS is case insensitive.
+
+Ans. 
+
+4. How to include CSS in the webpage?
+
+i) External Style Sheet.
+ii) Embed CSS with a style tag(Internal Style Sheet).
+iii) Add inline styles to HTML elements.
+iv) Import a stylesheet file.
+
+5. What are the different types of Selectors in CSS?
+
+i) Universal Selector. ( * )
+ii) Element Type Selector. ( ul )
+iii) ID Selector. ( #container )
+iv) Class Selector. ( .box )
+v) Descendant Combinator( #container .box)
+vi) Child Combinator ( #container> .box )
+vii) General Sibling Combinator( h2 ~ p )
+viii) Adjacent Sibling Combinator ( p + p  )
+iX) Attribute Selector( input [type=”text”] )
+ 
+6. What is the difference between inline, inline-block, and block?
+i) Block Element: The block elements always start on a new line. They will also take space for an entire row or width. List of block elements are <div>, <p>.
+
+ii) Inline Elements: Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are <a>, <span> , <strong>, and <img> tags. 
+
+iii) Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides.
+
+7. What is a Pseudo element? What is pseudo-class?
+A. Pesedo-classes
+i) :link
+ii) :visited
+iii) :hover
+iv) :active
+v) :focus
+
+B. Pesedo-element
+i) ::before
+ii) ::after
+iii) ::first-letter
+iv) ::first-line
+v) ::selection
+
+8. Can you name the four types of @media properties?
+
+i) All → It’s the default property. Used for all media-type devices.
+ii) Screen → Used for computer screen, mobile screen.
+iii) Print → Used for printers.
+iv) Speech → Used for screen readers
+
+9. What is the origin of CSS ?
+
+Standard Generalized Markup Language marked the beginning of style sheets in 1980s.
+
+10.  What are the different variations of CSS ?
+
+The variations for CSS are:
+i) CSS 1
+ii) CSS 2
+iii) CSS 2.1
+iv) CSS 3
+v) CSS 4
+
+11. What are the limitations of CSS ?
+
+Limitations are:
+
+i) Limitations of vertical control
+ii) No expressions
+iii) No column declaration
+iv) Pseudo-class not controlled by dynamic behavior
+v) Rules, styles, targeting specific text not possible
+
+12. What are the advantages of CSS ?
+
+Advantages are:
+
+i) Accessibility
+ii) Page will load fast
+iii) Maintenance is Easy
+iv) Offline browsing.
+
+
+13. Who maintains the CSS specifications?
+
+World Wide Web Consortium maintains the CSS specifications.
+
+14. Enlist the various fonts’ attributes?
+
+They are:
+
+i) Font-style
+ii) Font-variant
+iii) Font-weight
+iv) Font-size/line-height
+v) Font-family
+vi) Caption
+vii) Icon
+
+15. How can the dimension be defined of an element ?
+
+Dimension properties can be defined by:
+
+i) Height
+ii) Max-height
+iii) Max-width
+iv) Min-height
+v) Min-width
+vi) Width
+
+16. Flex Height Maintain 
+Ans. Display felx use kore height maintain kora jai
+
+
+17. The align content property use for verticallya and horizontally center.
+
+Ans: align-content: center; (Use for vertically center)
+and justify-content: center. (Use for horizontally center)
+
+Ai duiti property use kore main div er under e j sub div ache take V & H center kora jai.
+
+18. Alternative table row color
+
+Ans. tr:nth-child(odd),  tr:nth-child(even)
+Alternative class er jonno or alternative table er color er jonno : nth-chil(odd and even) duiti css property  use korte hobe.
+html e kno class call na kore ai property use kore style kora jai.
+
+Different row te different color add korar jonno tr:nth-child(1) number porperty use korte pari without html e giye css class call na kore
+
+19. CSS3 before after property why we use this?
+
+kno tag line er age jodi higlighted use korte hoy and sob line e include thakbe sekhetre use korte pari.
+beffore and after duita tey must content use korte hobe.
+
+ul li er bolate point add korte pari before after psedeo element use kora jai. and image overlay te use kora jai
+
+19. Difference between display: none Visibility: hidden
+
+Ans: display: none; property kno kicho hide korar jonno use kora hoy and kno space thake na, but visibility: hidden use korle hide hoy kinto tar space ti visible thake.
+
+20. Difference between display: block and float: left
+
+Ans: float left use korle left alignment theke suro hobe and pase kno gap thakbe na, but display block use korle left alignment theke suro hobe and pase gap thakbe
+
+21. It is possible to use two background images only in one css
+
+Ans. yes. css2 te possible na kinto css3 te possible.
+
+22. Css three te border image use kora jai.
+border image: url(i.img) 10 round. (10 mane slicing , round means repeate image repeate korar jonno use kora hoy)
+23. List out the components of css style?
+i) Property
+ii) Selector.
+iii) value.
+
+23. Explain type selector in css?
+i) Type selector matches the element of specific type.
+
+24. Explain universal selector in css?
+i) Universal selector is used to match any element types.
+
+25. Explain descendant selector in css?
+Ans: akti element er bhitore aro akti element er moddhe style apply korar jonno use koar hoy.
+
+26. Which property will be used for changing the face of font in css?
+Ans: Font family property can be used for changing the face of font.
+
+27. How to use grouping in css?
+Ans: Groping mane hocche akbar declare kore multiple html elements er moddhe style apply kora.
+
+h3, h5{
+} 
+
+28. Mention the property name which is used for making the font oblique in css?
+Ans. "font-style" property can be used for making the font oblique.
+
+29. How we can eliminate the color border around the linked images in web page in css?
+Ans: border: none is the style that can be used to eliminate the border of linked image
+
+30. What is the use of z-index in css?
+Ans. Z-index is used to avoid the overlapping of the elements.
+default value of z-index is 0 and it will take negative and possitive value.
+
+31. List out some of the properties in added in css3?
+i) Border Images
+ii) New Web fonts
+iii) Multi Column layout
+iv) Box Shadows
+v) Text Shadows
+vi) Transform property
+
+32. List out main properties of css style sheets?
+
+i) Text
+ii) Font
+iii) Border
+iv) Padding
+v) Table
+vi) List
+vii) Background
+viii) Margin
+
+33. What is the property used for formatting the texts in css?
+i) Property-"white-space" is used for formatting the text.
+
+34. List out the possible values for attribute position in css?
+i) Static
+ii) Inherit
+iii) Fixed
+iv) Absolute
+v) Relative
+
+35. Which are the new backgrounds are added in css3?
+i) background-origin
+ii) Background-clip
+iii) background-size
+
+36. What is CSS flexbox?
+Ans: The flexbox layout officially called CSS flexible box layout module is a new layout module in CSS3.
+
