@@ -10,3 +10,162 @@ kora jai.
 2. Buffer mane hocche temporay akta place jekhan theke data show hocce.
 
 What is toFixed and readLine?
+
+
+invitation mail.
+
+3. Asynchronus and Synchronus
+
+Ans: Synchronus mane hocche sequentially kaj kore aktar por akta step by step kaj kore.
+Je sob kah jmn http request synchornusly kora possible hoy na sesob amra asynchronusly kore thaki
+mul execution e kno prblm hobe na background e kajti somporno hobe
+
+proms er maddhome asynchor er kaj korte pari, async, away, api settimeout, callback  aigula asynchronus 
+er jonno use kora hoye thake.
+
+asynchronus gain korte pari callback, settimeout, proms, away,
+
+ES6 new feature---Default parameter, promess, arrowfunction, let, const, restparameter, spreadoperator.
+var functionscope variable, let block scope variable, var diye declare korle hosted hoye upore chole jai but let er khetre host hoy upore chole jai na.
+let and var e reassign kora jai, but const e reassign kora jai na.
+
+React hocche javascript library jeta user interface design er jonno use kore thaki.
+
+Framework and libray er difference
+
+Library te full prblm er solution thake na onk kicho add kore nite hoy thirdparty application add kore kaj ta solution korte hoy.
+Frame work hocce akta pura puri solution jekhane sobkichu aksathe powa jai thirdparty application add korte hoy na.
+
+Library means basa.
+Framework means school, chollage, versity
+
+Difference virtual DOM and Real DOM
+
+Ans: virtual dom ta hocce jokhon amra component ke render kori tokhon je immediatly akta dom tree
+se tar memory te rekhe dey pore compare korar jonno And real dom hocce amra browser e jeta dehkte pacchi browser e j dom royeche ata hocche real dom.
+
+react alda akta dom create kore jeta amra virtual dom hisebe jani ja pore kno state poriborton hole rerender kore previous dom er sathe compare kore jeta update kora dorkar seta update kore.
+
+Virtual dom benifit
+
+Ans: Real dom e jodi amra kicho modifie or state change kori seta browser e korle suro theke rander kore.
+supose element change korbo sekhetre noton kore dom tree create kore, protek ta kajer jonno rerander korbe jeta prothom theke suro hobe and browser ke onk slow kore dibe.
+virtual dom sudhu matro je jaigai poriborton dorkar sekhane poriborton kore update kore dey
+
+Javascript version ke browser frindly ke kore?
+
+Ans: New feature browser e support na korle amra compiler use korte pari jmn bebale use korte pari jeta amader latest version code ke  previous version e convert kore browser e run kore dey.
+
+React component 2 prokar
+
+i) functional and class component
+
+Different function and class component
+
+state direct use kora jai na hook use korte hoy and class component e direct use kora jai
+
+Hook kno use kora hocche?
+
+Ans: Basically kicho kaj easy kore dicche jmn state age use korte partam na hook use er maddhome seta kora jacche.
+additional kaj kora jacche kaj take easy kore diche.
+
+Component kokhon rerander hoy?
+Ans: Jokhon kno state change hoy tokhon rerander hoy.
+
+Props kokhon use kora hoy?
+Ans: Kno information or data pass korar jonno parent component theke child component pass korte use kora hoy.
+
+Props na likhe ki onno kicho likha possible data pass korar jonno?
+Ans: props akta object er moto kaj kore object er moddhe information store kora thake kno kicho access korte hole props er through te information access korte hoy.
+
+Props use kore Distructuring kora jai kina?
+Ans: props akta object jar maddhome parent component theke child component e data pass kore
+props na likhe distructuring kora jai.
+
+Higher order component ki?
+
+Ans: Higher order function er concept base kore asche. Higher order function e amra akta argument hisebe funtion nite partam.
+akta funtion return kora jeto.
+Higher order component o same component hisebe akti input nite pari and output hisebe component return korte pari
+
+Pure function or pure component ki?
+
+Ans: Pure funtion means same input and same output altime. Pure
+component hocche akta input and akta output. 
+
+Context API kno use kori?
+
+Ans: context api sara kno kicho use korte chaile sekhetre parent component theke child component e data pass korte hobe tokhon
+jodi onk guli nesting child thake sekhetre props ke root label porjonto pass korte hocce context api use korle ata jamela hocche na sorasori
+parent component k context e niye aste parchi and jekhane pass kora dorkar sekhane pass kora jacche.
+network er moto kaj kore kno akta area te bosiye dile sey area niye kaj kore.
+
+Control and uncontrol component ki?
+
+Ans: Amra kno input nile react bojte pare na jmn user name iput nile seta react bojte pare na seta uncontrol component
+but aki jaigai jodi boli dey user name specific value niye thakbe ata hobe control component.
+React jeta control korbe ata control component and jeta mukto thake seta uncontrol component.
+
+Redux ki and kno use korchi?
+
+Ans: use context ta normaly jokhon use korchi tokhon parent component ta ke oitar bhitore niye tarpor child component er props pass korte hocche 
+bur redux e alada jaigair moto jekhane data store kore rakha jai tarpor sekhan theke proijon onijai e use kora jai.
+
+Redux er maddhome amra huse poriman data ke ak sthan theke r ak sthane pathate pari.
+
+Redux kibhabe kaj kore?
+Ans: Amra jokhon redux use kori store create korte hoy tarpor action ta dite hoy action hoye gele ditch patch hoy ai j store er moddhe j reducer thake 
+j kno akta input dile sey kaj ta reducer kore seta amader return diye dey.
+
+Node ?
+
+Run time environment javascript ke amra jokhon server site e run korte chai tokhon use kora hoy.
+
+Mongo db 
+server use korar jonno use kora hoy.
+
+Mongo db akta database jekhane amra data rakhte pari and ata akta noSQL
+
+4. What are the lifecycles of ReactJs?
+
+The lifecycles of ReactJs are:
+
+Destruction
+Initialization
+Property Updates
+
+5. When ReactJs released?
+
+March 2013
+
+21.  Which function is used to create UI representation?
+
+React.createElement()
+
+What is the lifecycle methods order in mounting?
+
+The lifecycle techniques are called in the under the order when an example of a component is being created and inserted into the DOM.
+
+constructor()
+static getDerivedStateFromProps()
+render()
+componentDidMount()
+
+What is the super keyword in React?
+
+The super keyword is used to admission & call functions on an object’s parent.
+
+What was the need for hooks?
+
+useState, useEffect and useContext
+
+how to share logic across components?
+
+i) Higher order components
+ii) Render props pattern
+iii) Custom hooks
+
+je component e kno state variable ney setai stateless component
+
+j component kno component ke extends korbe na 
+jekhane lifecycle method thakbe na, 

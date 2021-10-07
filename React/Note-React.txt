@@ -1,0 +1,148 @@
+1. Node js
+
+Ans: Open source server environment. React ke run korar jonno
+computer er bitore local server create kore.
+
+2. React project create and run
+
+Ans: npx create-react-app my-app
+Ans: cd my-app
+Ans: npm start
+
+3. npx means (node package execution)
+4. npm (Node package manager)
+
+5. Why use react
+Ans: SPA (Single page application)
+
+Ans: Aki page er bhitore jokhon sudhu content gula change hoy tokhon
+sey application ke single page application bole
+
+Ajax: Without page loading akti page content load kore.
+
+React: without reloading page aki page e bibhinno componet or content k load kora
+
+React akti boiler plate dicche sey boiler plater bhitore file sajano ache spa korar jonno building function use korte dicche 
+jate amra khub easly single page application create korte parchi...
+
+Akta web page er ak akta onsho hocche ak akta component. React diye component stucture ke reuse korte pari react use kore.
+
+Without realoading page content load kora, component gula ke reuse kora, akbar load hole cholbe amn sob component k akbar load kora
+
+React developer friendly library
+
+File stucture
+
+1. Readme.md (information licence)
+2. package.jsaon (package jason er kaj hocche dependencies declare kora and ki ki script use kora hoyche se gula k connect kora)
+3. package-lock.json ( dependencies gula store thake )
+4. node-modules ( build in file, pre define code)
+5. public
+	i) favicon.ico
+	ii) index.html ( j frame tir bhitore component gula dynamically change hote thake atai moloto index.html ja application k single page application banai)
+id=root means sey div or frame j div er bhitore all component dynamically load hoy.
+
+6. Src(component gula src folder e toyri kora thake)
+	i) app.js (component gula link kora hoye thake app.js er sathe)
+	ii) app.css ( style apply for component)
+	iii) app.test.js( application bananor jonno bibhinno class or function gula likhi tar test case likhar jonno ai file use kora hoy)
+	iv) index.js
+app.js ke index.html e pathate hoy r ata pathanor or randaring er kaj kore thake index.js
+
+7. component ( barir shimana parent component baki sob child component, akta component onno akta component k hold kore
+
+function use kore j component make kora hoy ata function component.
+Class use kore j component make kora hoy ata class component
+or stateless and stateful component
+
+8. function component mane hocche amra jokhon kno function use kore view ke return korbo ata hocche functional component.(Stateless component)
+9. class componet(stateful component)
+
+10. akta method or class make kore akta component create kora and bar bar call kora.
+
+11. JSX stands for JavaScript XML (extended markup language)
+12. JSX looks like HTML.
+13. React view return kore
+14. React tag gula k return kore convert kore javascript e convert kore tai atake jsx bola hoy.
+15. JSX support style
+16. JSX support regular javascript expression.
+17. JSX e script tag sara o javascript expression kaj kore but html e kaj kore na
+18. React babel compiler use kore
+19. Class make kore kno view return kora hole take class component bole
+
+
+20. class component ke extends korte hobe extends mainly use kora hoy inherit korar jonno
+
+21. props means assign properties property ke assign korar jonno use kora hoy.
+22. Reuse of component with custom value--aki component ke bar br resue korar jonno
+
+functional components e props perametter akare use kora hoy and
+this keyword use kore props use kora hoy class component e
+
+23. CSS for react component
+i) custom css
+ii) Bootstrap (npm install --save bootstrap)
+iii) Material Design Light
+iv) Material Design Bootstrap
+
+24. Arrow function syntax
+
+const MyFun=()=>{
+25. React state hocche akti object j object onk gula value kore store kore rakhe.
+kind of json array.
+26. props component er bhitore data pass kore
+27. state component er bhitore thake onno kno jaiga theke value pass kore na
+
+Props baire theke value niye ase funtional component er bhitore pass kore dey.
+State funtion er bhitore thekey value dey
+
+class component theke view ke return korte gele render use korte hoy
+state er kaj hocche bibhinno property er maddhome value store kore rakha
+then value gula ke state theke use kora.
+
+28. Setstate use kore value change kora jai 
+
+29. Conditional return this.state.login? <h1> I am first <h2> : <h1> i am second <h1>
+
+30. render(), hydrate(), unmonuntComponentAtNode(), findDOMNode(), createPortal().
+
+31 render hydrade 3 ta parameter ney
+32. findDOMNode() akta parameter ney
+33. React cross or multiplatform. (facebook, instagram, Over, Pathao)
+34. Reactjs code snippets.
+35. Hook class component e kaj korbe na..functionnal component e class component er state provide korbe
+Hook ke function er top e call korte hobe.
+React function er bhitorey hook k call korte hbe
+Node version 6 or above hote hobe
+NPM version 5.2 or above
+Create-react-app for running the react app.
+
+36.Hook er jonno react version 16.8.0 hote hobe
+j feature gula sudhu matro class component e use kora jai like state ai gula k function component e use korar jonno hook use kora hoy.
+
+37.class component er property  
+ i) useState
+ii) useEffect
+iii) useContext
+iv) useReducer
+v) useCallback
+vi) useMemo
+vii) useRef
+viii) uselmperativeHandle
+iX) useLayoutEffect
+x) useDebugValue.
+
+
+Map method akti array ache sey arrary theke new array create korte use hoy. Previous array er element extract kore new array make kora jai
+
+Map diye akti exixting array ke duplicate or modifie kore return kora jai
+
+Map method 3 ti perameter nite pare currentvalue, index, arrary
+
+rest parameter 
+
+...degree
+
+
+
+
