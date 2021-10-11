@@ -1,0 +1,126 @@
+One array print using C
+
+#include <stdio.h>
+
+int main()
+{
+ int array[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+ int i;
+ 
+ for(i = 0; i < 10; i++){
+    printf("%d", array[i]);
+}
+return 0;
+}
+
+
+Now problem no.1
+Input: X (int)
+Output:
+- if X greater 0 than print "Positive"
+- if X equal 0 than print "neutral"
+- if X less than 0 print "Negative"
+
+
+#include <stdio.h>
+int main()
+{
+int x;
+printf("Enter a input: ");
+scanf("%d", &x);
+if(x > 0){
+printf("X is a possitive number");
+}else if(x == 0){
+printf("X is a neutral number");
+}else if( x < 0){
+printf("X is a Negative number");
+}else{
+printf("X is not a number");
+} return 0;
+}
+
+Input: X (int)
+121 -> 121 = palindrome
+123 -> 321 = not palindrome
+
+[Yesterday 9:41 AM] Subarna
+#include <stdio.h>int main()
+{
+int x, temp, r, sum = 0;
+printf("Enter any number: ");
+scanf("%d", &x); temp = x; while(temp != 0)
+{
+r = temp % 10;
+sum = sum * 10 + r;
+temp = temp / 10;
+}
+if(x == sum)
+printf("Palindrome number");
+else
+printf("Not plaindrome number");
+}
+
+Palindrome number and not palindrome number
+
+
+#include <stdio.h>int main()
+{
+int x, temp, r, sum = 0;
+printf("Enter any number: ");
+scanf("%d", &x); temp = x; while(temp != 0)
+{
+r = temp % 10;
+sum = sum * 10 + r;
+temp = temp / 10;
+}
+if(x == sum)
+printf("Palindrome number");
+else
+printf("Not plaindrome number");
+}
+
+
+Link list
+
+#include<stdio.h>
+#include<stdlib.h>
+
+struct Node{
+    int data;
+    struct Node *next;
+};
+
+int main(){
+    struct Node *a = NULL;
+    struct Node *b = NULL;
+    struct Node *c = NULL;
+    a = (struct Node*)malloc(sizeof(struct Node));
+    b = (struct Node*)malloc(sizeof(struct Node));
+    c = (struct Node*)malloc(sizeof(struct Node));
+
+    a->data = 10;
+    b->data = 20;
+    c->data = 30;
+    a->next = b;
+    b->next = c;
+    c->next = NULL;
+    while(a != NULL){
+        printf("%d -> ", a->data);
+        a = a->next;
+    }
+    return 0;
+}
+
+
+
+
+Node Js work
+var http = require('http');
+var server = http.createServer(function (req, res) 
+{    res.end("Hello World")    });
+server.listen(5050);
+console.log("Server Run Success");
+
+
+
+

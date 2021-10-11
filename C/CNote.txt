@@ -1,0 +1,16 @@
+Pointer hocche bises dhoroner variable jeta onno variable er address rakhte pare.
+
+
+1. Structure hocce collection of different data type.
+
+2. Link list hocche onk gula node aktar sathe r akta connected
+
+onek gula node aktir sathe r akti pointer dara connected protek ta list akta r aktar dara pointed
+
+Protekta node er duita part akti data part r akti address part.
+
+Address part porer node ke hold kore or point kore. Data part ta integer porer part ta pointer
+
+Single list akti node er sathe akti e pointer thake
+
+first node er sathe kon node ta connected setar address k hold kore.

@@ -1,0 +1,72 @@
+TOOLS-
+1. Node JS
+2. VS Code
+3. Webstrome
+
+Terminal
+1.Windows CMD
+2. Windows Power Shell
+3. Vs Code Terminal Option
+4. Webstrom Terminal Option
+5. Node js Terminal
+
+Ryan Dahl create Node js May 2009
+
+1. Node Js?
+Ans: Node js hocche akta platform j platform javascript ke server
+site e run korai. Server site e operation korar jonno j j feature gula dewar dorkar
+power up er j bisoy gula dorkar segula diye thake.
+
+Ja savascript ke power up koreche.
+
+_Is node js a programming language?
+
+Node js programming language na platform. Ja use kore javascript ke server site e run korte pari
+And ai server er nijossho library ache j library bibhinno aplication programming interface 
+provide kore sey server site operation gula ke manage korar jonno
+  
+
+2. NPM (Thirdparty library)  
+
+2. Module?
+
+Ans: Module hocche coder somosthi jeti ami reuse korte parbo.
+Orthat reuseable code er somosthi ke node module bola hoy.
+
+Node js includes three types of modules.
+
+1. Core Modules.( http, url, querystring, path, fs util).
+2. Local Modules.
+3. Third party modules.
+
+Code explain
+
+1. Http module connent first and store in variable.
+Then variable theke http server ke call korte hobe.
+
+use anonymous callback function, Function e duiti parameter use akti request and onnoti response
+request perameter server er request ke manage kore and response request er againest e akti response generate kore
+
+Server ke akta port diye run korate hoy
+
+int x, temp, r, sum = 0;
+printf("Enter any number: ");
+scanf("%d", &x);
+
+temp = x;
+
+while(temp != 0)
+{
+r = temp % 10;
+sum = sum * 10 + r;
+temp = temp / 10;
+
+}
+if(num == sum)
+printf("Palindrome number");
+else
+printf("Not plaindrome number");
+}
+
+01797063145
+  

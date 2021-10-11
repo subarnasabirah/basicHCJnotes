@@ -145,4 +145,15 @@ rest parameter
 
 
 
+1. Akta array loop diye print using c.
+
+Online code editor.
+
+Share code io.
+
+Node.js
+
+
+
+
 
