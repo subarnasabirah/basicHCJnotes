@@ -238,3 +238,7 @@ iii) background-size
 36. What is CSS flexbox?
 Ans: The flexbox layout officially called CSS flexible box layout module is a new layout module in CSS3.
 
+
+37. Base tag holo html document er relative link er jonno akta base url set kore dewa. 
+
+

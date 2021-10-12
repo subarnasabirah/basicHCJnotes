@@ -14,3 +14,115 @@ Address part porer node ke hold kore or point kore. Data part ta integer porer p
 Single list akti node er sathe akti e pointer thake
 
 first node er sathe kon node ta connected setar address k hold kore.
+
+C Programming
+
+Translator program
+1. Compiler
+2. Interpreter
+3. Assebler
+
+Token
+1. Keywords, Escope sequence, puncuators, operators, data types
+2. Input-output(printf, scanf)
+3. Operator(Tribhojer khetrofol, rommboser khetrofol, samantoriker khetrofol
+sonkhar jog or gor)
+
+Control Statement
+
+Conditional(if, switch)
+Loop control(for while do while)
+
+Array
+Funtion
+
+Program ki?
+
+Kno akti somossha somadhader jonno computer er basai (0, 1) likhito nirdesher somosthike program bola hoy.
+
+Programming language: Programm er rochona jonno bihinno word borno, onko sonket and aigula binnasher niom miliye toiri kora hoy programming language.
+
+Jemon: c, c++, Assembly language, Java etc.
+
+
+Translator Program
+ucchotor basai likhito program ke sourche code bole.
+Jokhon computer er basai niye jawa hoy tokhon take binary code bole.
+Mechine language er code k mechine code or binary code bole..
+
+Translator program 3 types
+Assembler, compiler, interpreter.
+
+Assembler 3 types
+i) Assembly language program.
+ii) Assembler
+iii) Machine language.
+
+Assembler er advantage amd disadvantage
+Advantage
+1. nemonik code mechine basar rupantor kore.
+2. Program kno bhul thakle error message dey
+3. Program bhul songsodon e
+
+
+Je translator assembly language likhito programke machine language e convert kore take assembly language bole.
+
+
+Je program sourche code ke object code e rupantorito kore take assembler bole. 
+
+Algorithm flowchart c program
+
+Token
+
+1. keywords, Escope sequence, p
+
+1. Input-Output
+2. Operator
+3. Math
+4. Control statement -> if, else
+5. Swithch
+6. Loop
+7. Series
+8. Patter/pyramic
+9. Array(One dimensional)
+10. Array(Two dimensional)
+11. String
+12. Function
+13. Recursion
+14. File
+15. Structure
+16. Pointer
+17. Advance c
+
+
+Linked list
+
+1. Data and next mile akti node.
+2. Ambersen &x address khuje ber korte use hoy.
+Pointer: Pointer hocce amn akta variable ja onno akta variable er address k store/Point kore.
+Pointer kaj kore memory address niye.
+
+Pointer Declaration of Pointer
+
+Data_type, *var_name; (Stric sine *)
+
+Amberse er maddhome address khuje ber kora jai and Stric diye sey address er value ke khuje ber korte hoy.
+
+Advantage of Pointer
+
+1. onk beshi efficient.
+Memory address always possitive thakbe
+%x means Hexa decimal
+%u means unsine
+
+Swaping with pointer
+
+
+Linked list means dynamic memory allocation poddhotite programe bebohito datar maje akti songjog sthapon kora hoy. Datar arop songjokti ke linked list bola hoy.
+
+Structure is a collection of variables of different types under a single name.
+A strucure is a user defined data type in c
+Linked List duiti linear array ar moddhe sojjito thake akti info and onnoti link.
+
+Info List er information part nirdesh kore.
+Link Next pointer ke nirdesh kore thake
