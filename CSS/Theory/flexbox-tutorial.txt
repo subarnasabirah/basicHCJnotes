@@ -24,4 +24,23 @@ flex-flow: column wrap;
 flex-flow: row wrap; 
 ata use korle aksathe row/column direction dey sathe wrap kore and nidristho width dey.
 
-6.  
+6.  Justify-content kaj kore main access er upor 
+justify-content er bydefalut dewa thake flex-start 
+
+Justify content er value 5 ti:-
+i) flex-start
+ii) flex-end
+iii) center
+iv) space-between( first item ke akdom surote and last item e akdom sese niye jai baki space baki element gula ke dey.
+v) space-around (space around use korle protek ta item soman space bag kore ney)
+
+7. Align items kaj kore cross access e 
+
+flex-item: flex-end korle content er width er last e chole jabe
+
+8. Align content o cross access e kaj kore flex content er height jai thakok na kno flex-content : flex-start/flex-end use korle sey onojaie start hobe
+
+9. flex-order kaj kore negative value niye je item er negative value jtoto beshi hobe se toto beshi first e thakbe
+
+10. flex grow kaj kore possitive value niye. flex grow flex content er blank space thakle item gulate soman space bhag kore dey and nidristho item e use korle sey item ta pura blank space ta ney.
+flex grow use kore element gular size eccha moto change kora jai
