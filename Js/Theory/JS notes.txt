@@ -17,15 +17,15 @@ invitation mail.
 3. Asynchronus and Synchronus
 
 Ans: Synchronus mane hocche sequentially kaj kore aktar por akta step by step kaj kore.
-Je sob kah jmn http request synchornusly kora possible hoy na sesob amra asynchronusly kore thaki
-mul execution e kno prblm hobe na background e kajti somporno hobe
+Je sob kaj jmn http request synchornusly kora possible hoy na sesob amra asynchronusly kore thaki
+multiple execution e kno prblm hobe na background e kajti somporno hobe
 
 proms er maddhome asynchor er kaj korte pari, async, away, api settimeout, callback  aigula asynchronus 
 er jonno use kora hoye thake.
 
 asynchronus gain korte pari callback, settimeout, proms, away,
 
-ES6 new feature---Default parameter, promess, arrowfunction, let, const, restparameter, spreadoperator.
+ES6 new feature---Default parameter, promice, arrowfunction, let, const, restparameter, spreadoperator.
 var functionscope variable, let block scope variable, var diye declare korle hosted hoye upore chole jai but let er khetre host hoy upore chole jai na.
 let and var e reassign kora jai, but const e reassign kora jai na.
 
@@ -109,7 +109,7 @@ React jeta control korbe ata control component and jeta mukto thake seta uncontr
 Redux ki and kno use korchi?
 
 Ans: use context ta normaly jokhon use korchi tokhon parent component ta ke oitar bhitore niye tarpor child component er props pass korte hocche 
-bur redux e alada jaigair moto jekhane data store kore rakha jai tarpor sekhan theke proijon onijai e use kora jai.
+but redux e alada jaigair moto jekhane data store kore rakha jai tarpor sekhan theke proijon onijai e use kora jai.
 
 Redux er maddhome amra huse poriman data ke ak sthan theke r ak sthane pathate pari.
 
@@ -169,3 +169,127 @@ je component e kno state variable ney setai stateless component
 
 j component kno component ke extends korbe na 
 jekhane lifecycle method thakbe na, 
+
+
+DOM
+
+1. Dom er sahajje dom find/get kora jai.
+2. Change kora jai
+3. add or 
+4. delete html elements
+
+Dom tow types
+1. Dom methods - getElementById()
+2. Dom Properties = innerHTML
+
+How javascript code run
+
+JS Code ke mechine language e covert kore akti js engine like chroome er jonno V8 engine.
+and sobai ECMA script standard follow kore.
+
+Js code ke Machine code e convert korar 3 ti process
+
+i) Interpretation.
+ii) Compilation.
+iii) Mixture of both.
+
+JavaScript age Interpretation chilo but akhon interpretation and compilation er shongmisrone machine language e convert hoy.
+
+Interpretation line by line code machine code e convert kore ak line por abr script er dike takate hoy.
+(Interpreter Easy to Debug but slow process)
+but compilation akbare code niye ney and machine code e convert kore.
+(compileer fast process but system crash and hard to debug)
+
+V8
+Just-in-time (JIT) Compiler
+
+JIT 
+(Interpretation)
+Compiler
+(Machine Code)
+
+javascript tar responsibility je se interpretation kore tar code ke machine code e convert kore atai javascript enginee er kaj engine tar kaj ke easy korar jonno
+code ke part part kore bhag kore akta akta kore kaj kore ay part gula key execution context bola hoy.
+
+surete javascript akti global execution context make kore(Ata akta object or container)
+jekhane thake
+Phase: Loading/Creation
+window: global object
+this: window
+variable object
+scope chain
+
+Global Execution Context
+
+phase: Execution
+
+window: global object
+this: window
+topic:"Javascript Execution Context"
+getTopic: fn()
+scope chain
+
+1. Akta global object make korechilo. 
+2. this name er akta object make korechilo
+3. function and variable er jonno memory te space make korechilo
+4. variable gular value undefined bosiye diyechilo
+
+Funtion execution er jonno
+
+1. Akta Parameter/argument object make korechilo. 
+2. this name er akta object make korechilo
+3. function and variable er jonno memory te space make korechilo
+4. variable gular value undefined bosiye diyechilo
+
+
+single threaded and event prevent language.
+
+Clouser
+clouser hocche akti funtion. Ja tar parent function clouse howar por o tar parent function er 
+variable gulake acces korte pare.
+
+Promise hocche callback function er adhonik rup. ja sohojey asynchronus operation gula access korar sujog kroe dey.
+and jar maddhome error handeling kora jai easly
+
+promise holo akti object. jeti asynchronus operation sese operation ti fullfill hole akti value dey.
+operation reject hole amader akti region or error dey.
+promise e duiti object thake then and catch.
+
+Javascript non bloking programming language
+
+Clouser 
+Child parent er sob kicho access korte pare but parent child er kicho access korte pare na. 
+
+Clouser mane hocche bondhoni
+Clouser hocche akti Function with rememberd value. Je value gula tar nijer scope e thake na tar ager scope theke reference kore niye ase
+orthat tar kno perent scope theke niye ase.
+
+Javascript is a synchronous single-threaded language.
+
+Prototype: Prototype javascript er jekono function er akti builtin property ja akti object ke point kore.
+jekhane common jinish gula rekhe dite pari and use korte pari.
+
+
+1. require how is it work
+2. How to work import
+3. How to work js export
+4. What is constructor function
+5. How is it work new keyword
+6. what is promise how is it work.
+7. sql and nosql er difference
+8. What is flex-wrap
+9. flex ki and kno use kora hoy.
+10. difference between synchronus and asynchronus.
+11 What in mvc pattern 
+
+
+
+
+
+http://128.199.183.156/#whatWeAre
+
+Assalamualaikum,
+Here I would like to request to extend my offboarding date from 1-11-2021  to 1-12-2021. I can't quit my job this month because I have some issues. If I can get a one-month extension, it will be a great help for me. I hope you understand my situation and accept my request.
+I am requesting your approval for granting me in this matter. I will be thankful to you.
+Sincerely,
+Subarna

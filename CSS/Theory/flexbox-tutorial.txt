@@ -1,0 +1,27 @@
+1. What is CSS flexbox?
+Ans: The flexbox layout officially called CSS flexible box layout module is a new layout module in CSS3.
+
+2. Display flex use korle parent er under e thaka child gula ke tar jototuku space thake soman bhabe bag kore dey and sobcheye long content er height onujaie protektar height dey.
+
+3. Flex Direction er value 4 ti :-
+i) Row (main access left theke right orthat item align hobe left theke right cross access hobe top theke bottom e)
+ii) Column ( main access top theke bottom and cross access hobe left theke right e)
+iii) Colum Reverse
+iv) Row Reverse
+
+flex direction bydefault row te thake
+
+4. Flex Wrap amra jokhon onk gula row ney main content e flex use korle child item gula te width kaj kore na tai flex wrap use kora hoy oigula te width 
+flex-wrap: wrap
+flex-wrap: wrap-reverse flex reverse wrap e item gula na line gula reverse hoy
+bydefault flex container wrap kora thake nowrap tai item gulate width use korle kaj kore na
+
+Flex container er item gulate nidristo width use korte hole flex wrap use korte hobe.
+
+5. Flex Flow hocche flex direction and flex wrap er short hand
+
+flex-flow: column wrap;
+flex-flow: row wrap; 
+ata use korle aksathe row/column direction dey sathe wrap kore and nidristho width dey.
+
+6.  

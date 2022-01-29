@@ -1,11 +1,22 @@
 Pointer hocche bises dhoroner variable jeta onno variable er address rakhte pare.
 
 
-1. Structure hocce collection of different data type.
+1. Structure hocce collection of variable for different data type.
+i. Structure is a user defined data type in c.
+function er baire global structure and bhitore declare korle
+local varia
+
+structure er member hocche int value;
+
+stucture er under e amra joto gula khusi totogula variable use korte pari
+ 
+return 0 means hocche programti successfully run hoyce ata indicate kore
+
+
 
 2. Link list hocche onk gula node aktar sathe r akta connected
 
-onek gula node aktir sathe r akti pointer dara connected protek ta list akta r aktar dara pointed
+onek gula node aktir sathe r akti pointer data connected protek ta list akta r aktar dara pointed
 
 Protekta node er duita part akti data part r akti address part.
 
@@ -98,16 +109,21 @@ Token
 Linked list
 
 1. Data and next mile akti node.
-2. Ambersen &x address khuje ber korte use hoy.
+2. Ampersand &x address khuje ber korte use hoy.
 Pointer: Pointer hocce amn akta variable ja onno akta variable er address k store/Point kore.
 Pointer kaj kore memory address niye.
+
+pointer er kaj hocche onno akta variable niye kaj kora
+
+Memory address ta ke store korbe 
+
 
 Pointer Declaration of Pointer
 
 Data_type, *var_name; (Stric sine *)
 
-Amberse er maddhome address khuje ber kora jai and Stric diye sey address er value ke khuje ber korte hoy.
-
+Ampersand er maddhome address khuje ber kora jai and Stric diye sey address er value ke khuje ber korte hoy.
+Addressgula sob somoy possitive integer hoy.
 Advantage of Pointer
 
 1. onk beshi efficient.
@@ -118,6 +134,7 @@ Memory address always possitive thakbe
 Swaping with pointer
 
 
+
 Linked list means dynamic memory allocation poddhotite programe bebohito datar maje akti songjog sthapon kora hoy. Datar arop songjokti ke linked list bola hoy.
 
 Structure is a collection of variables of different types under a single name.
@@ -126,3 +143,88 @@ Linked List duiti linear array ar moddhe sojjito thake akti info and onnoti link
 
 Info List er information part nirdesh kore.
 Link Next pointer ke nirdesh kore thake
+
+
+typedef use kora hoy structure ke rename korar jonno.
+
+Stack: stack means tak or stop. list or array
+Array declare korar somoy size dite hoy.
+
+Je data structure ti te amra data aktar por akta sajiye rakhte pari and tule nite pari takey amra data structure boli.
+Stack hocche (LIFO)
+
+
+Push Kno kicho return korbe na kno item asle seta ke array te jog korbe. ata hocche push.
+
+int pop atar kno parameter ney kinto sonkha or item return korbe.
+
+int peek kno perameter nibe na integer return korbe.
+
+Array te always top e item jog hoy
+peek sobchaite uporer item ke return kore.
+
+
+#define kno constant value variable er moddhe define korar jonno use kora hoy
+
+c te header file 2 types 1 compiler theke ase 2nd nijera likha jai
+
+#include<stdio.h>
+Ans: standard input and output compiler or amader j source ta jekhane install dewa ache sekhane khuje tarpor oi file er code copy kore amr code e bosiye dey.
+#include "my_header_file.h"
+
+#include<conio.h> (console input output)
+character type input output newar jonno use kora hoy
+
+#include<math.h>
+calculate korar jonno use kora hoy sqrt, log etc.
+
+#<stdlib.h> memory management er function gula thake like
+malloc, calloc, realloc, free
+
+
+Because one year of experience as a Front End Developer.
+Crafted various website features using HTML5, CSS3, and JavaScript
+Developed and Implemented project scope and timelines based on the design-develop-deploy process
+Collaborated with UX designers and Back End Developers and ensured coherence between all parties
+Tested feature prototypes for bugs and user experience
+
+Linked list
+
+LIST: list means collection of elements like array.
+linked list mane proti element e akti linke create kori. linked list er elemet gula hocce node.
+
+linked list er duita part akti data and porerti address ja porer noder sathe linked korar jonno use kora hoy. 
+address part ti proborti node er address k point kore.
+
+singly linked list mane amra akti node theke sudhu matro poroborti node e jete parbo
+
+
+dynamic approach e linked list korar jonno amra head nibo j node e kno data rakhbo na head thakbe null.
+
+
+Queue
+
+Queue ke amra akta list hisebe chinta korte pari. enqueue mane 
+hocche data add kora. dequeue mane hocche data remove kora.
+
+Queue circulare array
+
+Queue er duita pointer thake akta hocche front and onnoti rear
+
+Tree hocce hierarchical datastructure
+
+head akta function e perameter sorup pass korbo
+
+1. Insert.
+2. Display.
+3. Search function
+4. Delete function
+
+
+hacker rank 2hr daily
+4 5 ghonta node js
+30min accha.
+
+mern 
+
+

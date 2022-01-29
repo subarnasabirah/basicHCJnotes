@@ -63,7 +63,7 @@ or stateless and stateful component
 11. JSX stands for JavaScript XML (extended markup language)
 12. JSX looks like HTML.
 13. React view return kore
-14. React tag gula k return kore convert kore javascript e convert kore tai atake jsx bola hoy.
+14. React tag gula k return kore javascript e convert kore tai atake jsx bola hoy.
 15. JSX support style
 16. JSX support regular javascript expression.
 17. JSX e script tag sara o javascript expression kaj kore but html e kaj kore na

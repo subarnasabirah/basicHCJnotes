@@ -49,24 +49,7 @@ request perameter server er request ke manage kore and response request er again
 
 Server ke akta port diye run korate hoy
 
-int x, temp, r, sum = 0;
-printf("Enter any number: ");
-scanf("%d", &x);
+Express js
 
-temp = x;
-
-while(temp != 0)
-{
-r = temp % 10;
-sum = sum * 10 + r;
-temp = temp / 10;
-
-}
-if(num == sum)
-printf("Palindrome number");
-else
-printf("Not plaindrome number");
-}
-
-01797063145
+Express js holo server side web framework for node.
   

@@ -1,0 +1,43 @@
+1. Promise 
+
+Akti kaj howar por onno akti kaje jabe ai jonno then use kora hoy
+
+async kaj ke sync kaje represent korte pari.
+
+async use kore promise call kora jai serial onojaie
+
+await er kaj hocche jotokhon na promise complete hobe totokhon porjonto akhane thakbe poroborti line e jabe na
+
+
+
+async means multi task kora aksathe
+sync akti ses kore r akti kore
+async programming protekta even handler
+
+1. Akti function onno akti function ke recive korche tar argument hisebe j funtion ta ke recive korlo ata ke bola hoy callback function.
+And j funtion ti callback function ke receive kore take bola hoy higher order function
+
+call stack er kaj ses howar por settimeout funtion kaj kore
+
+javascript akta task complete na kore onno task e jabe na ata hocche bloking code behaviour
+
+//callback and higher order function
+
+//Promise er 3 ti state pending, resolve, and reject
+
+
+async kaj ke sync pddhotite represent korte pari r setar akta poddhoti holo async await
+
+promise er onkgula then and catch e easyly represent koray hocche asyn await er kaj
+
+await call korle function ti ki obossoi async hote hobe
+
+await er er kaj hocce j funtion er age await use kora hoyeche jotokhon seti complete na hobe totokhon se poroborti line e jabe na. 
+
+await synchronus podotite kaj korar sujog dicche kinto se async kaj korche.
+await totokhon porjonto move hobe na jotokhon porjonto na tar kaj ses hobe.
+async await er maddhome data transfer kora jai.
+
+
+
+function callAllTasks(){

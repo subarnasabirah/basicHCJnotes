@@ -4,7 +4,7 @@ It is used for applying the styles for the HTML elements
 
 2. What is the Box model in CSS? Which CSS properties are a part of it?
 
-Ans. Box-sizing border box hocche css3 er new property. Ja protiti html element er charpase theke rectangle box dara wraped kora thake.  
+Ans. Box-sizing border box hocche css3 er new property.Ja protiti html element er charpase theke rectangle box dara wraped kora thake.  
 box-sizing border box ai karone use kora hoy jate amra padding margin border use korle o  main width er upor kno effect na pore. Main 
 content er jonno j width use kora hoy seti jate fixed thake.
  
@@ -14,7 +14,7 @@ i) Content:  Actual Content of the box where the text or image placed.
 ii) Padding: Area surrounding the content (Space between the border and content).
 iii) Border: Area surrounding the padding.
 iv) Margin: Area surrounding the border.
-
+`
 3. Is css a case-sensitive or case-insensitive?
 Ans. CSS is case insensitive.
 
@@ -168,6 +168,7 @@ Ans. yes. css2 te possible na kinto css3 te possible.
 
 22. Css three te border image use kora jai.
 border image: url(i.img) 10 round. (10 mane slicing , round means repeate image repeate korar jonno use kora hoy)
+
 23. List out the components of css style?
 i) Property
 ii) Selector.
