@@ -1,0 +1,11 @@
+1. Grid hocce css er layout module. grid hocche 2 dimensional layout aksathe row and column niye kaj kora jai
+2. Display: grid grid-template-colum use kore column er width and column er amount define kora jai
+3. grid-template rows: 120px 80px 40xp 200px;
+4. grid column gap use kora hoy column thke gap use korar jonno
+5. grid row gap o same
+6. grid column and grid row gap er combination hocche grid-gap akhane duiti value use kora jai
+firs ta and second ta column.
+7. grid-column-start and grid-column-end use kora hoy kotha theke start hoye kothai ses hobe
+grid-column hocche ai duitar combination. grid-column: 1 / span 3. and span keyword use kora hoy ata bole dite je se 3 ti column er space nibe
+8. grid area use kore item er name set kora jai.
+9. grid template areas use kore grid area name use kora hoy 

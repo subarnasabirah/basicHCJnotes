@@ -44,3 +44,12 @@ flex-item: flex-end korle content er width er last e chole jabe
 
 10. flex grow kaj kore possitive value niye. flex grow flex content er blank space thakle item gulate soman space bhag kore dey and nidristho item e use korle sey item ta pura blank space ta ney.
 flex grow use kore element gular size eccha moto change kora jai
+
+11. flex basis item gular width set korte help kore
+
+12. flex moloto flex grow flex shrink and flex basis er sort hand
+flex: 1 0 auto;
+
+13. Align self use kore kno item ke flex-end or start center or nth:child number even odd use kora jai
+
+14. Holy grail layout 
